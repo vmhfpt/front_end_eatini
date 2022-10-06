@@ -1,0 +1,53 @@
+
+@media only screen and (max-width: 1380px) {
+  
+    
+   
+ }
+ 
+ 
+ @media only screen and (max-width: 1195px) {
+     
+       
+      
+ }
+ 
+ @media only screen and (max-width: 990px) {  
+    
+     
+    .app-product-detail__policy {
+        float : none;
+        width : 100%;
+        margin-top : 0px;
+    }
+    .app-product-detail__policy-content {
+        border : none;
+    }
+    .app-product-detail__policy-left {
+        float : left;
+    }
+    .app-product-detail__policy-right {
+        float : right;
+    }
+   
+ }
+ 
+ 
+ @media only screen and (max-width: 766px) {
+   
+     
+
+        .app-product-detail__policy-left {
+            float : none;
+        }
+        .app-product-detail__policy-right {
+            float : none;
+        }
+    
+ }
+ 
+ @media only screen and (max-width: 480px) {
+    
+     
+       
+ }

@@ -1,0 +1,122 @@
+
+@media only screen and (max-width: 1380px) {
+  
+    
+   
+ }
+ 
+ 
+ @media only screen and (max-width: 1195px) {
+     
+        .app-product__content  .app-suggest__product-item-add {
+            width : 128px;
+         
+        }
+      
+ }
+ 
+ @media only screen and (max-width: 990px) {  
+    
+    
+    .app-product__filter-category  {
+        margin-top : 270px;
+        box-shadow: none;
+    }
+    .app-product__filter-supplier  {
+        box-shadow: none;
+    }
+    .app-product__filter-price {
+        box-shadow: none;
+    }
+   .app-product__filter  {
+    display: none;
+    z-index: 1000;
+    background: white;
+    position: fixed !important;
+    top : 0px;
+    left : 0px;
+    width : 100vh;
+    height : 100vh;
+    float :none;
+    width : 100%;
+   }
+   .app-product__content-filter-right {
+    display: none;
+     position: fixed !important;
+    top : 0px;
+     left : 0px;
+     width : 100%;
+     z-index: 2000;
+    border: none;
+
+   }
+   .app-product__content-sort-icon-left i {
+    display: none;
+
+   }
+   .app-product__content-sort-icon-left span {
+    font-size: 18px;
+    font-weight: 700;
+   }
+   .app-product__content-filter-right-content {
+    display: block;
+    top : 20px;
+   }
+   .app-product__content {
+   
+    float : none;
+    width : 100%;
+   }
+   .app-product__content .app-suggest__product-item {
+     width : 48.7%;
+   }
+   .app-product__content .app-suggest__product-item:nth-child(5){
+   
+    margin-right : 0px !important;
+}
+.app-product__content .app-suggest__product-item:nth-child(10){
+   
+    margin-right : 0px !important;
+}
+.app-product__content-sort-icon-right i {
+    font-size: 20px;
+}
+.tab-close__filter {
+    display: block;
+    
+}
+.app-product__content-filter-icon-mobile-detail {
+  display: block;
+}
+.app-product__content  .app-suggest__product-item-add {
+    width : 128px;
+   
+}
+ }
+ 
+ 
+ @media only screen and (max-width: 766px) {
+   
+     
+        .app-product__content  .app-suggest__product-item-add {
+            width : 128px;
+            
+        }
+    
+ }
+ 
+ @media only screen and (max-width: 480px) {
+    
+     
+       .app-product__content-filter-left {
+        background: red;
+        width : 65%;
+       }
+      
+
+
+    .app-product__content  .app-suggest__product-item-add {
+        width : 128px;
+       
+    }
+ }

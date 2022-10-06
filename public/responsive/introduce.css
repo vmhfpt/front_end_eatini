@@ -1,0 +1,61 @@
+
+@media only screen and (max-width: 1380px) {
+  
+   
+ }
+ 
+ 
+ @media only screen and (max-width: 1195px) {
+     
+       
+      
+ }
+ 
+ @media only screen and (max-width: 990px) {  
+    
+    
+    .app-introduce__story-first-left {
+      float : none;
+      width : 100%;
+      margin-top : 30px;
+    }
+    .app-introduce__story-first-right {
+        float : none;
+        width : 100%;
+    }
+    .app-introduce__story-service-item {
+        width : 50%;
+        margin : 12px 0px;
+    }
+   
+ }
+ 
+ 
+ @media only screen and (max-width: 766px) {
+    .app-introduce__story-service-item {
+        width : 100%;
+        margin : 12px 0px;
+    }
+    .app-introduce__brand-content-right {
+        float : none;
+        width : 100%;
+        
+    }
+    .app-introduce__brand-content-left {
+        float : none;
+        width : 100%;
+     
+    }
+    .app-introduce__story-first {
+        margin : 12px 0px;
+    }
+   
+       
+    
+ }
+ 
+ @media only screen and (max-width: 480px) {
+    
+    
+       
+ }

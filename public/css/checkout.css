@@ -1,0 +1,231 @@
+
+
+.body-checkout {
+    background: white !important;
+}
+.app-checkout-left {
+   
+    padding : 30px 40px 0px 40px;
+    float : left;
+    width : 50%;
+}
+.app-checkout-right {
+    padding : 30px 40px 0px 40px;
+    float :right;
+    background-color: #f9fdfc;
+    width : 50%;
+    border-left: 1px solid #eae4e8;
+    height : 100vh;
+}
+.app-checkout-left__breadcrumb li {
+    display: inline-block;
+    font-size: 14px;
+}
+.app-checkout-left__breadcrumb li>a {
+  color : black;
+  text-decoration: none;
+}
+.app-checkout-left__title-last h3 {
+    font-size: 18px;
+}
+.app-checkout-left__title-last a{
+    font-size: 14.4px;
+    text-decoration: none;
+    color : black;
+}
+.app-checkout-left__form {
+    width : 100%;
+}
+.col-ms2 {
+    width : 64%;
+}
+.col-ms3  {
+    width : 34%;
+}
+.app-checkout-left__form input {
+    font-size: 13.5px !important;
+    border-radius:  0px !important;
+}
+.form-group__left select {
+   
+    width : 100%;
+    color: #5c5c5c;
+    font-size: 14.4px;
+    border: 1px solid #eae4e8;
+    padding: 13px 15px;
+}
+.form-group__left select:focus {
+   outline: none;
+}
+.form-group__right select {
+   
+    width : 100%;
+    color: #5c5c5c;
+    font-size: 14.4px;
+    border: 1px solid #eae4e8;
+    padding: 13px 15px;
+}
+.form-group__right select:focus {
+   outline: none;
+}
+.app-checkout-left__submit-left {
+    float : left;
+    width : 50%;
+    height : 50px;
+  
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.app-checkout-left__submit-right {
+    float : right;
+    width : 48%;
+}
+.app-checkout-left__submit-left a {
+    text-decoration: none;
+    color: black;
+    font-size: 14.4px;
+}
+.app-checkout-left__submit-right button {
+    cursor: pointer;
+    width : 100%;
+    background: #338dbc;
+    color: white;
+    border: none;
+    padding : 18px 0px;
+    font-size: 14px;
+}
+.app-checkout-left__submit {
+    margin-top : 20px;
+}
+.app-checkout-left__title h2 {
+    font-size: 28px;
+}
+.app-checkout-left__breadcrumb {
+    margin : 7px 0px;
+}
+.app-checkout-left__title-last h3 {
+    margin-bottom: 14px;
+}
+.app-checkout-right__product-item_image {
+    float : left;
+}
+.app-checkout-right__product-item-content {
+    float :right;
+    color: #4b4b4b;
+    width : 30%;
+    height : 62px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.app-checkout-right__product-item_image-left {
+    position: relative;
+    float : left;
+    width : 20%;
+}
+.app-checkout-right__product-item_image-left img {
+    border: 1px solid #eae4e8;
+   width : 100%;
+   height : 100%;
+   border-radius: 5px;
+}
+.app-checkout-right__product-item_image-right {
+   
+    float :left;
+    height : 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-checkout-right__product-item_image-right>a {
+    text-decoration: none;
+   color: #4b4b4b;
+   margin-left : 12px;
+   margin-top : 4px;
+}
+.price-position {
+    background-color: rgba(153,153,153,0.9);
+    width : 22px;
+    text-align: center;
+    color : #fff;
+    font-size: 14px;
+    position: absolute;
+    right : -10px;
+    top : -10px;
+}
+.app-checkout-right__product-item {
+    margin-bottom: 8px;
+}
+.app-checkout-right__form-left {
+    float : left;
+    width : 70%;
+}
+.app-checkout-right__form-right {
+   
+    float : right;
+    width : 20%;
+}
+
+
+.app-checkout-right__form-right button {
+    cursor: pointer;
+    font-size: 15px;
+    margin-top : 20px;
+    padding : 13px 30px;
+    border: none;
+    background: #c8c8c8;
+    color : #fff;
+}
+.app-checkout-right__form input {
+    font-size: 15px;
+    border-radius: 0px;
+}
+.app-checkout-right__form {
+    border-top: 1px solid #eae4e8;
+    border-bottom: 1px solid #eae4e8;
+}
+.app-checkout-right__payload span {
+    display: block;
+    font-size: 16px;
+    color: #4b4b4b;
+    line-height: 27px;
+}
+.app-checkout-right__payload-left {
+    float : left;
+}
+.app-checkout-right__payload-right {
+    float :right;
+    text-align: right;
+}
+.app-checkout-right__payload {
+    border-bottom: 1px solid #eae4e8;
+    padding : 15px 0px;
+}
+.app-checkout-right__total-left {
+    float : left;
+    height : 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-checkout-right__total-right {
+    height : 40px;
+    float : right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-checkout-right__total-right span:first-child {
+ color :#b3b2b2;
+ font-size: 14px;
+}
+.app-checkout-right__total-right span:last-child {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.app-checkout-right__total {
+    margin-top : 12px;
+}

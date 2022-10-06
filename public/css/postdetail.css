@@ -1,0 +1,185 @@
+.app-post-detail__content {
+    width : 100%;
+    background: white;
+    padding : 10px 20px 45px 20px;
+    border : 1px solid #eae4e8;
+}
+.app-post-detail__content-date li {
+    float : left;
+    margin-right : 32px;
+    padding : 0px 0px 0px 2px;
+    font-size: 13px;
+    color: #74839f;
+}
+.app-post-detail__content-date li>a{
+   text-decoration: none;
+    color: #74839f;
+}
+.app-post-detail__content-date li:first-child {
+  list-style: none;
+ 
+}
+.app-post-detail__content-date {
+    padding : 4px 0px 40px 0px;
+}
+.app-post-detail__content-title {
+    font-size: 21px;
+    color : #333333;
+}
+.app-post-detail__content-image img {
+    width : 100%;
+}
+.app-post-detail__content-center {
+    width : 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-post-detail__content-center-detail {
+    
+    width : 89%;
+
+}
+.app-post-detail__content-center-detail img {
+    width : 100%;
+}
+.app-post-detail__content-center-detail-button {
+    margin-top : 52px;
+    padding : 20px;
+    border-top : 1px solid #eae4e8;
+    width : 100%;
+}
+.app-post-detail__content-center-detail-button-left {
+    float : left;
+   
+}
+.app-post-detail__content-center-detail-button-right {
+    float : right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.app-post-detail__content-center-detail-button-b {
+    font-weight: 600;
+    font-size: 14.4px !important;
+}
+.app-post-detail__content-center-detail-button-left span {
+    font-size: 14.4px;
+}
+.app-post-detail__content-center-detail-button-right i{
+    font-size: 20px !important;
+    margin-left : 5px ;
+}
+.app-post-detail__content-center-detail-button-right a {
+    text-decoration: none;
+    font-size: 14.4px;
+    color :#333333;
+}
+.app-post-detail__content-center-detail-button-b {
+    margin-bottom : 3px;
+}
+.app-post-detail__content-center-detail-button-right span {
+   position: relative;
+   top: -2px;
+}
+
+.app-new__content-list-suggest {
+    position: relative;
+}
+.app-new__content-list-suggest .owl-prev {
+    background: white !important;
+    color : black !important; 
+    width : 30px !important;
+    font-size: 35px !important;
+    
+  }
+  .app-new__content-list-suggest .owl-next {
+      background: white !important;
+      color : black !important; 
+      width : 30px !important;
+      font-size: 35px !important;
+    }
+
+    .app-new__content-list-suggest .owl-nav {
+        position: absolute;
+        top : -80px;
+        right :14px;
+     }
+.app-post__content-comment {
+    margin : 23px 0px;
+    width : 100%;
+    background: white;
+    padding : 10px 20px 40px 20px;
+    border : 1px solid #eae4e8;
+}
+.app-post__content-comment-title h2 {
+    font-size: 22px;
+
+}
+.app-post__content-comment-title {
+    padding-bottom: 8px;
+    border-bottom : 1px solid #eae4e8;
+}
+.app-post__content-comment-form-first {
+    width : 100%;
+    margin : 18px 0px;
+}
+.app-post__content-comment-form-first-left {
+    float : left;
+ 
+    width : 48%;
+}
+.app-post__content-comment-form-first-right {
+    float : right;
+   
+    width : 48%;
+}
+.app-post__content-comment-form-first input {
+    width : 100%;
+    background: none;
+    border: 1px solid #eae4e8;
+    padding : 13px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.app-post__content-comment-form-first input:focus {
+   outline: none;
+}
+.app-post__content-comment-form-second {
+    width : 100%;
+    margin-top: 18px;
+}
+.app-post__content-comment-form-second textarea {
+    width : 100%;
+    border: 1px solid #eae4e8;
+    border-radius: 4px;
+    font-size: 15px;
+    padding : 13px 15px 0px 15px;
+}
+.app-post__content-comment-form-second textarea:focus {
+    outline: none;
+}
+.app-post__content-comment-form-submit>p  {
+    font-size : 14px !important;
+    color : #9e9e9e;
+}
+.app-post__content-comment-form-submit>p>a {
+    color : #2962ff !important;
+    text-decoration: none;
+}
+.app-post__content-comment-add {
+    display: block;
+    color :#333333;
+    font-size : 14px;
+}
+.app-post__content-comment-form-submit button {
+  background: #f1c150;
+  color : white;
+  border: none;
+  border-radius: 15px;
+  padding : 8px 27px;
+  cursor: pointer;
+  margin-top : 16px;
+}

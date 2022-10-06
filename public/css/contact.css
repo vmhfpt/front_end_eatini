@@ -1,0 +1,122 @@
+
+.app-contact-page__left {
+    float : left;
+    width : 49.5%;
+    
+}
+.app-contact-page__right {
+    float : right;
+    width : 49.5%;
+    
+}
+.google-map iframe {
+    height : 744px;
+}
+.app-contact-page__left-detail-content-item {
+    margin : 8px 0px;
+    float : left;
+    width : 47%;
+    
+}
+.app-contact-page__left-detail-content-item:nth-child(1){
+    margin-right : 6%;
+}
+.app-contact-page__left-detail-content-item:nth-child(3){
+    margin-right : 6%;
+}
+.app-contact-page__left-detail-content-item-icon {
+    float : left;
+    width : 35px;
+}
+.app-contact-page__left-detail-content-item-thumbnail {
+    padding-left : 13px;
+    float : left;
+    width :82%;
+}
+.app-contact-page__left-detail-content-item-icon  {
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    
+    padding :9px 0px 9px 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.app-contact-page__left-detail-content-item-icon i {
+   padding: 0px !important;
+   margin: 0px !important;
+}
+.app-contact-page__left-detail-content-item-thumbnail b {
+    font-size: 14px;
+    color : #000;
+}
+.app-contact-page__left-detail-content-item-thumbnail p {
+    font-size: 14.2px;
+    color: #696969 !important;
+}
+.app-contact-page__left-detail {
+    padding : 5px 20px 16px 20px;
+    background: white;
+    border-radius: 4px;
+    margin : 0px 0px 15px 0px;
+}
+.app-contact-page__left-detail-title h2 {
+    margin-bottom: 10px;
+    font-size: 21px;
+    color : #333;
+}
+.app-contact-page__left-form {
+   
+    margin : 12px 0px 20px 0px;
+    padding : 5px 20px 16px 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.app-contact-page__left-form-title h2 {
+    font-size: 21px;
+    color : #333;
+}
+.app-contact-page__left-form-title p {
+    margin-top : 16px;
+    font-size: 14.5px;
+    color : #333;
+}
+.form-group {
+    
+    margin : 20px 0px;
+    width : 100%;
+}
+.col-ms5 {
+    width : 48%;
+}
+.form-group__left{
+    float : left;
+   
+}
+.form-group__right {
+    float : right;
+    
+}
+.form-group input{
+    color : #5c5c5c;
+    width : 100%;
+    border : 1px solid #eae4e8;
+    border-radius: 4px;
+    padding : 13px 15px;
+    font-size: 16px;
+} 
+.form-group input:focus{
+   outline: none;
+} 
+.form-group textarea {
+    color : #5c5c5c;
+    width : 100%;
+    border : 1px solid #eae4e8;
+    border-radius: 4px;
+    padding : 13px 15px;
+    font-size: 16px;
+}
+.form-group textarea:focus {
+   outline: none;
+}

@@ -1,0 +1,43 @@
+
+@media only screen and (max-width: 1380px) {
+  
+   
+   
+ }
+ 
+ 
+ @media only screen and (max-width: 1195px) {
+    
+       
+      
+ }
+ 
+ @media only screen and (max-width: 990px) {  
+    
+    
+    
+   
+ }
+ 
+ 
+ @media only screen and (max-width: 766px) {
+   
+    
+       
+    .app-post__content-comment-form-first-left, .app-post__content-comment-form-first-right {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+ }
+ 
+ @media only screen and (max-width: 480px) {
+    
+
+        .app-post-detail__content-date li {
+            font-size: 11px;
+            list-style: none;
+            padding-right: 5px;
+            margin-right: 5px;
+        }
+       
+ }

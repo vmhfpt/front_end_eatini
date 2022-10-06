@@ -1,0 +1,85 @@
+.app-login__center {
+    width : 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-login {
+    padding : 5% 0px 14% 0px;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+}
+.app-login__content {
+    width : 45.5%;
+    padding : 10px 30px 30px 30px;
+    background-color: white;
+}
+.btn-submit {
+   border-radius: 4px !important;
+   padding : 15px 35px !important;
+}
+.app-login__content-submit-button {
+    float : left;
+    
+}
+ .app-login__content-submit-right {
+    margin-left : 30px;
+    padding-top : 15px;
+ 
+    float : left;
+}
+.app-login__content-submit-right p {
+    font-size: 14.2px;
+}    
+.app-login__content-submit-right p>a {
+    color: #009dde;
+    text-decoration: none;
+}
+.app-login__content-submit {
+    margin-top : 10px;
+}
+.app-login__content-title span {
+  font-size: 26px;
+  font-weight: 600;
+  padding : 0px 27px;
+  color:  black;
+}
+.app-login__content-title  {
+    text-align: center;
+    margin : 10px 0px 45px 0px;
+}
+.app-login__content-un-active {
+    color:  #cacaca !important;
+}
+.app-login__content-title span:first-child {
+   
+    border-right: 2px solid gray;
+}
+
+
+.app-login__content input {
+    background: #ededed !important;
+    font-size: 15px !important;
+    border-radius: 0px !important;
+    padding: 18px 18px !important;
+    
+}
+.app-login__content input::placeholder {
+     font-style: italic;;
+}
+.app-login__content input:focus {
+  background: white !important;
+}
+.custom-margin {
+    margin-top : 12px;
+}
+.form-group__radio input {
+    width : 25px !important;
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+    accent-color:black;
+}
+.form-group__radio input:not(:checked) {
+    border-color: gray; 
+}
